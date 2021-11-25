@@ -1,7 +1,7 @@
 import React, {useState } from 'react';
 import logo from '../images/logo.png';
 
-function Navbar() {
+function Navbar(props) {
 
     const [nav,setnav] = useState(false);
 

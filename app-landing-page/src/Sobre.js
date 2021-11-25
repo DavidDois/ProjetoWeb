@@ -1,16 +1,18 @@
 import React from 'react';
-import Header from './Components/Header';
+import Navbar from './Components/Navbar';
 import Feature from './Components/Feature';
+import SobreIntro from './Components/SobreIntro';
 import Contact from './Components/Contact';
 
-function App() {
+function Sobre() {
   return (
     <div className="App">
-      <Header />
+      <Navbar />
+      <SobreIntro />
       <Feature />
       <Contact />
     </div>
   );
 }
 
-export default App;
+export default Sobre;

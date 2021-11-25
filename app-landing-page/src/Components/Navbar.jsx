@@ -23,11 +23,9 @@ function Navbar() {
                 <span className='nav-icon'></span>
             </label>
             <ul className='menu'>
-                <li><a href='#' className='active'>Home</a></li>
-                <li><a href='#'>Features</a></li>
-                <li><a href='#'>About</a></li>
-                <li><a href='#'>UI SS</a></li>
-                <li><a href='#'>Download</a></li>
+                <li><a href='#' className='active'>Objetivos</a></li>
+                <li><a href='#'>Funcionalidade</a></li>
+                <li><a href='#'>Sobre</a></li>
             </ul>
         </nav>
     );

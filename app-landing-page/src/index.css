@@ -24,7 +24,7 @@ input{
     border: none;
 }
 .logo img{
-    width: 90px;
+    width: 200px;
 }
 #main{
 
@@ -48,14 +48,14 @@ nav{
     transition: 0.6s ease-in-out;
 }
 nav.active{
-	box-shadow: 5px 10px 30px rgba(0, 247, 255, 0.157);
+	box-shadow: 5px 10px 30px rgba(208, 255, 0, 0.157);
 	background-color: #ffffff;
 }
 nav ul{
 	display: flex;
 }
 .active{
-    background-color: #00b7ff;
+    background-color: #fec91ca6;
     color:#ffffff;
 	box-shadow: 5px 10px 30px rgba(189, 198, 64, 0.411);
 	transition: all ease 0.2s;
@@ -76,9 +76,9 @@ nav ul li a{
     transition: 0.2s ease-in-out;
 }
 nav ul li a:hover{
-	background-color: #00b7ff;
+	background-color: #feb21c;
     color:#ffffff;
-	box-shadow: 5px 10px 30px rgba(2, 238, 255, 0.336);
+	box-shadow: 5px 10px 30px #feb31c65;
 	transition: all ease 0.2s;
 }
 nav .menu-btn,
@@ -94,7 +94,7 @@ nav .menu-btn,
 	transform: translate(-22%,-50%);
 }
 .name span{
-    color: #00b7ff;
+    color: #feb21c;
 }
 .name .details{
     color: #969696;
@@ -116,8 +116,8 @@ nav .menu-btn,
 	display: flex;
 	justify-content: center;
     align-items: center;
-    background-color: #00b7ff;
-    box-shadow: 5px 10px 30px rgba(2, 238, 255, 0.336);
+    background-color: #feb21c;
+    box-shadow: 5px 10px 30px #fed51c5d;
     border-radius: 10px;
 	color:#ffffff;
 }
@@ -329,7 +329,7 @@ font-size: 2rem;
     display: block;
     display: -webkit-box;
     max-width: 80%;
-    margin-top: 25px;
+    margin: 0 0 50px 0;
     -webkit-line-clamp: 4;
     -webkit-box-orient: vertical;
     overflow: hidden;
@@ -357,7 +357,7 @@ font-size: 2rem;
 
 
 #contact{
-    background-color: #00b7ff;
+    background-color: #feb21c;
 	display:flex;
 	flex-direction: column;
 	justify-content: center;
@@ -389,7 +389,7 @@ font-size: 2rem;
 .contact-input a{
 	width:200px;
 	height:35px;
-	background-color:#00b7ff;
+	background-color:#c78809;
 	color:#FFFFFF;
 	display: flex;
 	font-size: 0.9rem;
@@ -401,7 +401,7 @@ font-size: 2rem;
     transition: 0.4s ease-out;
 }
 .contact-input a:hover{
-    background-color:#0099ff;
+    background-color:#754e00;
 }
 @media(max-width:1190px){
 	#main{
@@ -425,6 +425,7 @@ font-size: 2rem;
 	}
     .a-box{
 		flex-grow: 1;
+        cursor: pointer;
 	}
     #services{
 		height:auto;

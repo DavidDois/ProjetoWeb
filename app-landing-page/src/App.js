@@ -12,9 +12,9 @@ function App() {
     <div className="App">
       <Header />
       <Feature />
-      <About image={aboutimage} title='Any text here' button='Come on' />
-      <Presentation />
-      <About image={aboutimage1} title='Any text here' button='Come on' />
+      {/* <About image={aboutimage} title='Any text here' button='Come on' />
+      <Presentation /> */}
+      {/* <About image={aboutimage1} title='Any text here' button='Come on' /> */}
       <Contact />
     </div>
   );

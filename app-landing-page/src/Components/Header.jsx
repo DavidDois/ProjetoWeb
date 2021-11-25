@@ -6,9 +6,9 @@ function Header() {
         <div id='main'>
             <Navbar />
             <div className='name'>
-                <h1><span>Launch your app</span> With Confidence And Creativity</h1>
-                <p className='details'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut rerum inventore, facere cupiditate ut quas soluta aliquid magnam suscipit aspernatur quod tenetur qui sequi voluptas sit quaerat non exercitationem voluptatum.</p>
-                <a href='#' className='cv-btn'>Download</a>
+                <h1><span><bold>Invista</bold></span> com segurança e lucro conosco.</h1>
+                <p className='details'>Aqui você pode investir com segurança e lucro, com o nosso poder de reembolso você pode procurar um lucro dentro de 15 dias, caso contrário seu dinheiro é retornado.</p>
+                <a href='#' className='cv-btn'>Começar</a>
             </div>
         </div>
     );
